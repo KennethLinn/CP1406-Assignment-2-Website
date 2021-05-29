@@ -1,0 +1,321 @@
+html, body {
+    height: 100%;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'source sans Pro',sans-serif;
+    font-size: 12pt;
+    font-weight: 300;
+    color: #363636;
+}
+
+hr.green{
+    border: 2px solid #19be77;
+}
+
+
+h1,h2,h3{
+    margin: 0;
+    padding: 0;
+}
+
+p,ol,ul{
+    margin-top: 0px;
+}
+
+p{
+    line-height: 190%;
+}
+
+a{
+    color: #5f9ea0;
+}
+
+#main {
+    background: #ffbc92;
+}
+/*Container*/
+.container
+{
+    width: 1200px;
+    margin: 0px auto;
+}
+
+#menu-container
+{
+    overflow: hidden;
+    padding: 5em 0em;
+    background: #ffbc92;
+}
+
+/*Header*/
+#header
+{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 6em;
+    background: #6D3D1E;
+    border: solid rgb(255, 255, 255);
+}
+
+#menu
+{
+    position: absolute;
+    display: block;
+    top: 2em;
+    right: 2em;
+    text-align: center;
+}
+
+#menu > ul > li > ul
+{
+    display: none;
+}
+
+#menu ul
+{
+    display: inline-block;
+}
+
+#menu li
+{
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+#menu li a
+{
+    display: block;
+    text-decoration: none; 
+    text-transform: uppercase;
+    padding: 0.80em 1.5em;
+    letter-spacing: 0.25em;
+    font-size: 1em;
+    font-weight: 600;
+    color: #e7fd7f;
+}
+
+
+#menu .active a
+{
+    color: #FFFFFF;
+}
+
+ul.style2
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.style2 li
+{
+    border-top: solid 1px #E5E5E5;
+    padding: 0.80em 0;
+}
+
+ul.style2 li:first-child
+{
+    border-top: 0;
+    padding-top: 0;
+}
+#logo
+{
+    position: absolute;
+    left: 0;
+    height: 10em;
+    background: #19be77;
+}
+
+#logo h1
+{
+    display: inline-block;
+    padding: 1em 2em 0em 2em;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.85em;
+    color: rgb(76, 78, 76);
+}
+
+/*Image Adjustment*/
+a img{
+    border:none;
+}
+
+.image
+{
+    display: inline-block;
+    padding: 5px;
+    border: 2px dotted black;
+}
+
+.image img
+{
+    display: block;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.image-full
+{
+    display: block;
+    width: 100%;
+    margin: 0 0 2em 0;
+}
+
+.image-left
+{
+    float: left;
+    margin: 0 2em 2em 0;
+}
+
+.image-centered
+{
+    margin: 0 0 2em 0;
+    display: block;
+}
+
+.image-centered img
+{
+    margin: 0 auto;
+    width: auto;
+}
+
+
+/*Buttons*/
+.button
+{
+    position: relative;
+    display: inline-block;
+    margin-top: 0.5em;
+    padding: 1em 4em;
+    background: #19be77;
+    border-radius: 7px;
+    letter-spacing: 0.10em;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+    font-weight: 700;
+    font-size: 1em;
+    color: #FFF;
+}
+
+.button:before
+{
+    content: '';
+    position: absolute;
+    top: 1;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+}
+
+/*Content*/
+.title
+{
+    margin-bottom: 2em;
+    text-transform: uppercase;
+}
+
+.title h2
+{
+    letter-spacing: 0.10em;
+    font-weight: 700;
+    font-size: 2em;
+    color: #19be77;
+}
+
+.title .byline
+{
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.90em;
+    color: #6F6F6F;
+}
+
+#page
+{
+    overflow: hidden;
+    padding: 6em 0em 5em 0em;
+    text-align: center;
+}
+
+
+#content
+{
+    float: left;
+    width: 790;
+}
+
+
+
+#item
+{
+    text-align: center;
+}
+
+#item-2
+{
+    text-align: center;
+    margin-top: 200px;
+
+}
+
+#item-3
+{
+    text-align: center;
+    margin-top: 200px; 
+}
+
+#item .title h2
+{
+    color: #19be77;
+}
+
+#column-1,
+#column-2,
+#column-3,
+#column-4
+{
+    width: 282px;
+    padding-top: 30px;
+}
+
+#column-1,
+#column-2
+{
+    float: left;
+    margin-right: 24px;
+}
+
+#column-3
+{
+    float: left;
+}
+
+#column-4
+{
+    float: right;
+}
+
+#footer-link{
+    text-align: center;
+    list-style: none;
+}
+
+/*Footer*/
+.footer{
+    background-color:#6D3D1E;
+    flex: 0 0 30px;
+    margin-top: auto;
+    text-align: center;
+    font-size: 1em;
+    color: #ffffff;
+    border: solid rgb(255, 255, 255);    
+}
